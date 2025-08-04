@@ -3,16 +3,15 @@
 Naive approach to solving the Traveling Salesman Problem.
 
 Start by first installing SFML
-'''bash
-sudo apt install libsfml-dev
-'''
+
+<pre> ```bash sudo apt install libsfml-dev ``` </pre>
 
 then compile the project using the following g++ compilation flags
-'''bash
+<pre>'''bash
 g++ -std=c++23 *.cpp -o output -I include -L/usr/lib/x86_64-linux-gnu -lsfml-graphics -lsfml-window -lsfml-system
-'''
+'''</pre>
 
 then run the ./output file
-'''bash
+<pre>'''bash
 ./output
-'''
+'''</pre>
